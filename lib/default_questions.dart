@@ -10,14 +10,14 @@ class DefaultQuestion {
         Question(
           'Prends en photo les produits avec lesquels tu travailles.',
           section: 0,
-          defaultTarget: Target.all,
+          defaultTarget: Target.none,
         ),
         Question(
           'Prends en photo un produit avec un symbole SIMDUT que tu as déjà '
           'utilisé.'
           '\nQuelle est la signification du symbole?',
           section: 0,
-          defaultTarget: Target.all,
+          defaultTarget: Target.none,
         ),
         Question(
           'Prends en photo la marchandise que tu trouves la plus difficile '
@@ -38,10 +38,20 @@ class DefaultQuestion {
           defaultTarget: Target.none,
         ),
         Question(
+          'Prends une photo de ton bureau en classe.',
+          section: 1,
+          defaultTarget: Target.all,
+        ),
+        Question(
+          'Prends une photo de la chaise que tu utilises en classe.',
+          section: 1,
+          defaultTarget: Target.all,
+        ),
+        Question(
           'Prends en photo les équipements que tu utilises pour faire ton travail.'
           '\nÀ quoi servent-ils?',
           section: 1,
-          defaultTarget: Target.all,
+          defaultTarget: Target.none,
         ),
         Question(
           'Prends en photo l’outil le plus dangereux que tu utilises.'
@@ -74,7 +84,7 @@ class DefaultQuestion {
           'tu fais cette tâche.'
           '\nQu’est-ce que tu trouves le plus difficile dans cette tâche?',
           section: 2,
-          defaultTarget: Target.all,
+          defaultTarget: Target.none,
         ),
         Question(
           'Demande à tes collègues de te prendre en photo pendant que tu '
@@ -102,7 +112,7 @@ class DefaultQuestion {
           'Demande à tes collègues de te prendre en photo pendant que tu travailles.'
           '\nDécris tes caractéristiques.',
           section: 3,
-          defaultTarget: Target.all,
+          defaultTarget: Target.none,
         ),
         Question(
           'Demande à tes collègues de te prendre en photo pendant que tu '
@@ -112,15 +122,15 @@ class DefaultQuestion {
           defaultTarget: Target.none,
         ),
         Question(
-          'Prends une photo de l’extérieur de ton entreprise.',
+          'Prends une photo de ta salle de classe.',
           section: 4,
-          defaultTarget: Target.none,
+          defaultTarget: Target.all,
         ),
         Question(
           'Prends une photo de ton poste de travail.'
           '\nEst-ce qu’il y a du bruit?',
           section: 4,
-          defaultTarget: Target.all,
+          defaultTarget: Target.none,
         ),
         Question(
           'Prends une photo de ton département.'
@@ -138,7 +148,7 @@ class DefaultQuestion {
           'Prends en photo la personne qui te donne les tâches à faire.'
           '\nExplique son rôle dans l’entreprise.',
           section: 5,
-          defaultTarget: Target.all,
+          defaultTarget: Target.none,
         ),
         Question(
           'Fais-toi prendre en photo avec un ou une collègue pendant que vous '
